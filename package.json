@@ -31,15 +31,16 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-2": "^6.13.0",
     "babel-runtime": "^6.11.6",
+    "canvasengine": "https://github.com/gbedardsice/CanvasEngine#master",
     "eslint": "^3.6.0",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-import-resolver-webpack": "^0.6.0",
     "eslint-plugin-import": "^1.16.0",
     "express": "^4.14.0",
+    "json-loader": "^0.5.4",
+    "script-loader": "^0.7.0",
     "webpack": "^1.13.1",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.12.2",
-    "canvasengine": "https://github.com/gbedardsice/CanvasEngine#master",
-    "script-loader": "^0.7.0"
+    "webpack-hot-middleware": "^2.12.2"
   }
 }

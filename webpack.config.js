@@ -51,7 +51,6 @@ if (process.env.NODE_ENV === 'production') {
 } else {
 	config.devtool = '#eval';
 	config.entry.unshift(`webpack-hot-middleware/client?path=${devServerUrl}__webpack_hmr`);
-	config.entry.unshift('react-hot-loader/patch');
 	config.output.publicPath = devServerUrl;
 	config.plugins.push(new webpack.HotModuleReplacementPlugin());
 	config.plugins.push(new webpack.NoErrorsPlugin());
