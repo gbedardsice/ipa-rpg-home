@@ -1,0 +1,20 @@
+{
+  "characters": {
+    "1": "1.png",
+    "2": "2.png",
+    "3": "3.png"
+  },
+  "tilesets": {
+    "1": "tileset.png"
+  },
+  "autotiles": {
+    "2": "autotile1.png",
+    "3": "autotile2.png"
+  },
+  "animations": {
+    "1": "anim.png"
+  },
+  "windowskins": {
+    "1": "window.png"
+  }
+}
